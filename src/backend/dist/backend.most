@@ -1,0 +1,14 @@
+// Version: 1.0.0
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type ScoreEntry__389392674 =
+  {playerName : Text; score : Nat; timestamp : Int};
+actor {
+  stable scores :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?ScoreEntry__389392674]];
+      var elementIndex : Nat__490723111
+    };
+  stable totalGames : {var count : Nat}
+};

@@ -1,0 +1,11 @@
+type ScoreEntry = 
+ record {
+   playerName: text;
+   score: nat;
+   timestamp: int;
+ };
+service : {
+  getHighScores: () -> (vec ScoreEntry) query;
+  getTotalGames: () -> (nat) query;
+  saveScore: (playerName: text, score: nat) -> ();
+}

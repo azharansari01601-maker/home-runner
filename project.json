@@ -1,0 +1,24 @@
+{
+  "overview": "A Subway Surfers-style endless runner game set inside a home. Dodge furniture, collect coins, and survive as long as you can while running through house corridors.",
+  "features": [
+    "Endless 3D runner with home/house theme",
+    "Three-lane gameplay with lane switching and jumping",
+    "Procedurally generated household obstacles (furniture, toys, plants)",
+    "Coin collection and live score counter",
+    "Speed increases over time for escalating challenge",
+    "Start screen, game-over screen, and restart button",
+    "Touch swipe and keyboard controls",
+    "Full viewport 3D game canvas"
+  ],
+  "category": "game",
+  "tags": [
+    "game",
+    "endless-runner",
+    "3d",
+    "home-theme",
+    "casual",
+    "three-js",
+    "react-three-fiber"
+  ],
+  "last_updated": "2026-04-19T14:47:50.235Z"
+}
